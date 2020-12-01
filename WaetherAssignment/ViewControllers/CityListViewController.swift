@@ -28,7 +28,7 @@ class CityListViewController: UITableViewController {
     
     // MARK: - setUpUI
     private func setUpUI() {
-        self.title = "Your Cities Weather"
+        self.title = "My Cities Weather"
        
         tableView.backgroundColor = .white
         view.backgroundColor = .white
