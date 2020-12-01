@@ -41,7 +41,7 @@ class WeatherDetailViewController: UIViewController {
         
         locationLabel.text = weather.name
         temperatureLabel.text = "\(weather.main.temp)" + "°C"
-        feelsLikeLabel.text = "feels like \(weather.main.feels_like)"
+        feelsLikeLabel.text = "Feels like \(weather.main.feels_like)"
         humidityLabel.text = "Humidity \(weather.main.humidity)"
         minmaxLabel.text = "Min: \(weather.main.temp_min) - Max : \(weather.main.temp_max)"
         if let description  = weather.weather.first?.description{

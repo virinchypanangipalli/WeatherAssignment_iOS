@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		5D56B6B0257647BE00A48F98 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
-		5DD4BCE32575D82100EE5966 /* Waether App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Waether App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD4BCE32575D82100EE5966 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD4BCE62575D82100EE5966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DD4BCE82575D82100EE5966 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5DD4BCED2575D82100EE5966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		5DD4BCE42575D82100EE5966 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DD4BCE32575D82100EE5966 /* Waether App.app */,
+				5DD4BCE32575D82100EE5966 /* Weather.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DD4BCE22575D82100EE5966 /* Waether App */ = {
+		5DD4BCE22575D82100EE5966 /* Weather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DD4BCF72575D82300EE5966 /* Build configuration list for PBXNativeTarget "Waether App" */;
+			buildConfigurationList = 5DD4BCF72575D82300EE5966 /* Build configuration list for PBXNativeTarget "Weather" */;
 			buildPhases = (
 				5DD4BCDF2575D82100EE5966 /* Sources */,
 				5DD4BCE02575D82100EE5966 /* Frameworks */,
@@ -162,9 +162,9 @@
 			);
 			dependencies = (
 			);
-			name = "Waether App";
+			name = Weather;
 			productName = WaetherAssignment;
-			productReference = 5DD4BCE32575D82100EE5966 /* Waether App.app */;
+			productReference = 5DD4BCE32575D82100EE5966 /* Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DD4BCDE2575D82100EE5966 /* Build configuration list for PBXProject "Waether App" */;
+			buildConfigurationList = 5DD4BCDE2575D82100EE5966 /* Build configuration list for PBXProject "Weather" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -195,7 +195,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DD4BCE22575D82100EE5966 /* Waether App */,
+				5DD4BCE22575D82100EE5966 /* Weather */,
 			);
 		};
 /* End PBXProject section */
@@ -411,7 +411,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DD4BCDE2575D82100EE5966 /* Build configuration list for PBXProject "Waether App" */ = {
+		5DD4BCDE2575D82100EE5966 /* Build configuration list for PBXProject "Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DD4BCF52575D82300EE5966 /* Debug */,
@@ -420,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DD4BCF72575D82300EE5966 /* Build configuration list for PBXNativeTarget "Waether App" */ = {
+		5DD4BCF72575D82300EE5966 /* Build configuration list for PBXNativeTarget "Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DD4BCF82575D82300EE5966 /* Debug */,

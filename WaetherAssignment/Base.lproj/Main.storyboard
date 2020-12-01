@@ -11,13 +11,13 @@
         <!--City List View Controller-->
         <scene sceneID="C5G-Kx-q2z">
             <objects>
-                <tableViewController storyboardIdentifier="CityListViewController" id="ZNl-hP-Pvd" customClass="CityListViewController" customModule="WaetherAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="CityListViewController" id="ZNl-hP-Pvd" customClass="CityListViewController" customModule="Waether_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="37E-J5-n3I">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="WeatherTableViewCell" id="lu1-gU-Xfy" customClass="WeatherTableViewCell" customModule="WaetherAssignment" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="WeatherTableViewCell" id="lu1-gU-Xfy" customClass="WeatherTableViewCell" customModule="Waether_App" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lu1-gU-Xfy" id="dhy-Iy-BFm">
@@ -91,7 +91,7 @@
         <!--Add New City View Controller-->
         <scene sceneID="zU9-zF-nrE">
             <objects>
-                <viewController storyboardIdentifier="AddCitiesViewController" id="1BJ-5g-Ckb" customClass="AddNewCityViewController" customModule="WaetherAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddCitiesViewController" id="1BJ-5g-Ckb" customClass="AddNewCityViewController" customModule="Waether_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2wf-Hy-be5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,7 +122,7 @@
                                 <rect key="frame" x="0.0" y="120" width="414" height="688"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AddCitiesCell" id="U2Z-qd-Hu3" customClass="AddCitiesCell" customModule="WaetherAssignment" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AddCitiesCell" id="U2Z-qd-Hu3" customClass="AddCitiesCell" customModule="Waether_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U2Z-qd-Hu3" id="yme-ut-usc">
@@ -236,7 +236,7 @@
         <!--Weather Detail View Controller-->
         <scene sceneID="jEc-GX-xhD">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="Uye-Ng-xtq" customClass="WeatherDetailViewController" customModule="WaetherAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="Uye-Ng-xtq" customClass="WeatherDetailViewController" customModule="Waether_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YMe-zD-loa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -337,7 +337,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Au0-a5-wVC" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2636" y="-50"/>
+            <point key="canvasLocation" x="2634.7826086956525" y="-50.223214285714285"/>
         </scene>
     </scenes>
     <resources>
